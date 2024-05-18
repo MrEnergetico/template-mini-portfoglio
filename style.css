@@ -7,7 +7,8 @@ body {
     background-image: url("https://assetsio.gnwcdn.com/digitalfoundry-2020-cyberpunk-2077-high-end-pc-tech-analysis-1607620712399.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp") ;
     background-repeat: no-repeat;
     background-size: cover;
-    height: max-content;
+    height: auto;
+    width: auto;
 }
 
 .boxBadge  {
