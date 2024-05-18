@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://assetsio.gnwcdn.com/digitalfoundry-2020-cyberpunk-2077-high-end-pc-tech-analysis-1607620712399.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boxBadge  {
+    width: 400px;
+    height: 70px;
+    background-color: rgba(17, 17, 17, 0.3);
+    backdrop-filter: blur(10px);
+    margin-top: 100px;
+    margin-left: 550px;
+    border-radius: 15px;
+    opacity: 1;
+}
+
+.badge{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.boxProfile {
+    width: 400px;
+    height: 350px;
+    background-color: rgba(17, 17, 17, 0.3);
+    backdrop-filter: blur(10px);
+    margin-top: 50px;
+    margin-left: 550px;
+    border-radius: 15px;
+    opacity: 1;
+    
+}
+
+#image {
+    width: 70px;
+    height: 70px;
+    border-radius: 20%;
+    margin-top: 20px;
+    margin-left: 170px;
+}
+
+#image:hover{
+    transition: all 3s ;
+    border-radius: 100%;
+}
+
+.userName{
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    position: static;
+}
+
+.userDescription {
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-weight: 70;
+    font-style: normal;
+    position: static;
+}
+
+#link {
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+#link:hover {
+    transform: scale(1.2);
+}
